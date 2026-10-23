@@ -1,0 +1,13 @@
+body {
+    color: light pink;
+    line-height: 1.5;
+    background-color: purple;
+    font-family: "SF Fedora", sans-serif
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
