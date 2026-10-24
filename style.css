@@ -24,17 +24,20 @@ body {
     gap: 20px;
 }
 
+/*allows for the logo to be proper placed and spaced*/
 .proper-position {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
+/*logo's dimensions*/
 .logo {
     width: 75px;
     height: 75px;
     object-fit: contain;
 }
+
 
 h2 {
     font-size: 28px;
@@ -48,15 +51,17 @@ h2 {
     font-style: italic;
 }
 
+/*A navagation bar that can bring you to different page if linked*/
 .navbar {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 50px;
     padding: 20px;
-    background-color:#220135;
+    background-color:purple;
 }
 
+/*color change of navbar items*/
 .navbar a {
     color: gold;
     font-size: 16px;
@@ -64,6 +69,7 @@ h2 {
     padding: 10px;
 }
 
+/*css pastes image and makes it hero, covering an entire section*/
 .hero {
    background-image: url("images/hero.jpg");
    background-size: cover;
@@ -75,6 +81,7 @@ justify-content: center;
 align-items: center;
 }
 
+/*text overlay hero image*/
 .hero-text h2 {
     font-size: 42px;
     letter-spacing: 2px;
@@ -86,6 +93,7 @@ align-items: center;
     color: white;
 }
 
+/*sets layout for the content/main section*/
 .content-layout {
     display: flex;
     align-items: stretch;
@@ -93,6 +101,7 @@ align-items: center;
     margin-top: 20px;
 }
 
+/*creating a side bar for list*/
 .sidebar {
     width: 25%;
     background-color: lightpink;
@@ -101,11 +110,12 @@ align-items: center;
 }
 
 .sidebar h2 {
-    color:#220135;
+    color:purple;
     font-size: 24px;
-    margin-bottom: 25px;
+    margin-bottom: 22px;
 }
 
+/*lists font configuration*/
 .sidebar ol {
     padding-left: 20px;
 }
@@ -115,6 +125,7 @@ align-items: center;
     font-size: 16px;
 }
 
+/*setting parameters for the main content section*/
 .main-content {
     width: 75%;
     min-width: 0;
@@ -131,20 +142,21 @@ align-items: center;
 .main-content h2 {
     font-size: 25px;
     color: purple;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .main-content p {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .paragraph-section {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
+/*specs of the content image*/
 .content-image {
     display: block;
-    width: 100%;
+    width: 75%;
     height: 20%;
     border-radius: 8px;
     margin-bottom: 25px;
@@ -168,6 +180,7 @@ align-items: center;
 .text-section a:hover {
     color:cyan;
 }
+
 
 .bottom-fotter {
     background: purple;
